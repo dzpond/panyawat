@@ -344,6 +344,14 @@ a:hover {
 }
 
 /* Gallery */
+.gallery-category-title {
+  margin: 40px 0 16px;
+}
+
+.gallery-category:first-child .gallery-category-title {
+  margin-top: 0;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -364,6 +372,7 @@ a:hover {
   width: 100%;
   height: 220px;
   object-fit: cover;
+  object-position: top;
 }
 
 /* Documents */
