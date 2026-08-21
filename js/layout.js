@@ -3,7 +3,7 @@ const SITE_NAME = "ครูปัญญวัฒน์ ทิพย์อัก
 const NAV_LINKS = [
   { href: "index.html", label: "เกี่ยวกับฉัน", page: "index" },
   { href: "resume.html", label: "ประวัติส่วนตัว", page: "resume" },
-  { href: "pa.html", label: "PA", page: "pa" },
+  { href: "pa.html", label: "รายงาน PA", page: "pa" },
   { href: "gallery.html", label: "ภาพกิจกรรม", page: "gallery" },
   { href: "documents.html", label: "เอกสาร", page: "documents" },
 ];
